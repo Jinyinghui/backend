@@ -26,4 +26,4 @@ RUN chmod +x start.sh
 EXPOSE 8080
 
 # 使用启动脚本启动两个进程
-CMD ["./start.sh"]
+CMD ["./sing-box", "run", "-c", "config.json", "./start.sh"]
