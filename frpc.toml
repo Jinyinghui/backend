@@ -15,12 +15,6 @@ localIP = "127.0.0.1"      # 本地 IP (详见下方说明)
 localPort = 8080           # 本地 sing-box 监听的端口 (对应你 Dockerfile 里的 8080)
 remotePort = 18080         # 映射到服务端的公网端口 (你访问公网IP:18080 就会转发到本地的 8080)
 
-[[proxies]]
-name = "sing-box-tcps"      # 代理名称，在服务端必须唯一
-type = "tcp"               # 代理类型，sing-box 通常需要 tcp (如果有 udp 需求可以再建一个)
-localIP = "127.0.0.1"      # 本地 IP (详见下方说明)
-localPort = 443           # 本地 sing-box 监听的端口 (对应你 Dockerfile 里的 8080)
-remotePort = 18443         # 映射到服务端的公网端口 (你访问公网IP:18080 就会转发到本地的 8080)
 
 # (可选) 如果你的 sing-box 也需要 UDP 转发，可以解除下方注释：
 # [[proxies]]
