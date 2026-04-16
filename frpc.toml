@@ -9,7 +9,7 @@ token = "553423889@qq.cn" # 修改为你的 frp 连接秘钥
 
 # 2. 代理配置 (将本地的 sing-box 暴露出去)
 [[proxies]]
-name = "sing-box-tcp"      # 代理名称，在服务端必须唯一
+name = "sing-box"      # 代理名称，在服务端必须唯一
 type = "tcp"               # 代理类型，sing-box 通常需要 tcp (如果有 udp 需求可以再建一个)
 localIP = "127.0.0.1"      # 本地 IP (详见下方说明)
 localPort = 8080           # 本地 sing-box 监听的端口 (对应你 Dockerfile 里的 8080)
