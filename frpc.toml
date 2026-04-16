@@ -1,5 +1,5 @@
 # 1. 客户端公共配置 (连接到你的 frps 服务端)
-serverAddr = "x.x.x.x"     # 修改为你的 frp 服务端公网 IP 或域名
+serverAddr = "us.553423.xyz"     # 修改为你的 frp 服务端公网 IP 或域名
 serverPort = 7000          # 修改为你的 frp 服务端通信端口 (通常默认是 7000)
 
 # 认证配置 (推荐配置，需与服务端 frps.toml 保持一致)
