@@ -22,4 +22,4 @@ name = "sing-box-https"
 type = "https"
 localIP = "127.0.0.1"
 localPort = 443
-remotePort = 18433
+remotePort = 18443
