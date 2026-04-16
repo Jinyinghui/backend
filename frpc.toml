@@ -18,8 +18,8 @@ remotePort = 18080         # 映射到服务端的公网端口 (你访问公网I
 
 # (可选) 如果你的 sing-box 也需要 UDP 转发，可以解除下方注释：
 [[proxies]]
-name = "sing-box-udp"
-type = "udp"
+name = "sing-box-https"
+type = "https"
 localIP = "127.0.0.1"
-localPort = 8080
-remotePort = 18080
+localPort = 443
+remotePort = 18433
