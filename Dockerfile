@@ -30,4 +30,4 @@ RUN chmod +x start.sh
 
 EXPOSE 8080
 
-CMD ["./start.sh", "./sing-box", "run", "-c", "config.json"]
+CMD ["./start.sh"]
